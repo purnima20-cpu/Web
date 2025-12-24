@@ -4,46 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Registration Form</title>
+
     <style>
-        
         h3 {
             text-align: left;
         }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            vertical-align: top;
+        }
+
+        /* Highlight First Name & Last Name on focus */
+        #fname:focus,
+        #lname:focus {
+            border: 2px solid #007BFF;
+            outline: none;
+            box-shadow: 0 0 6px rgba(0, 123, 255, 0.6);
+        }
+
+        textarea {
+            resize: both;
+        }
     </style>
-</head>
+</head>~
 <body>
+
     <h3>Registration Form</h3>
+
     <form>
         <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" required/><br />
+        <input type="text" id="fname" name="fname" required />
+        <br /><br />
 
         <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" required/><br />
+        <input type="text" id="lname" name="lname" required />
+        <br /><br />
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" /><br />
+        <input type="email" id="email" name="email" />
+        <br /><br />
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" /><br />
+        <input type="password" id="password" name="password" />
+        <br /><br />
 
-        Gender:
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" />
+        <br /><br />
+
+        <label>Reg Date:</label>
+        <input type="date" name="regdate" />
+        <br /><br />
+
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary" />
+        <br /><br />
+
+        <label>Gender:</label>
         <input type="radio" id="male" name="gender" value="male" />
         <label for="male">Male</label>
+
         <input type="radio" id="female" name="gender" value="female" />
         <label for="female">Female</label>
-        <br />
+
+        <input type="radio" id="others" name="gender" value="others" />
+        <label for="others">Others</label>
+        <br /><br />
+
+        <label>Skills:</label>
+        <input type="checkbox" name="skills[]" value="HTML" /> HTML
+        <input type="checkbox" name="skills[]" value="CSS" /> CSS
+        <input type="checkbox" name="skills[]" value="JavaScript" /> JavaScript
+        <br /><br />
 
         <label for="country">Country:</label>
         <select id="country" name="country">
             <option value="">Select</option>
+            <option value="">Nepal</option>
             <option value="usa">USA</option>
             <option value="india">India</option>
             <option value="uk">UK</option>
-            
         </select>
-        <br />
+        <br /><br />
+
+        <label for="about">About You:</label>
+        <textarea id="about" name="about" rows="4" cols="30"
+            placeholder="Write something about yourself..."></textarea>
+        <br /><br />
 
         <input type="submit" value="Register" />
+        <input type="reset" value="Reset" />
     </form>
+
 </body>
 </html>
