@@ -22,14 +22,14 @@ This is a simple web project consisting of two main HTML pages:
 - Submit and Reset buttons included.
 - Demonstrates basic HTML form structure and styling.
 
+# Website Preview in Table
 
-### 2. `website.html`
-- Demonstrates use of **HTML tables** and **iframes**.
-- Shows how different attributes affect layout and design:
-  - `<table>` elements with `tr`, `td`, and `th`.
-  - Table attributes: `cellspacing`, `cellpadding`, `border`, `align`.
-  - `<iframe>` to display external or internal content within the page.
-- Serves as a preview of a simple website layout using HTML fundamentals.
+## preview.html
+- Displays a website inside a table using an `<iframe>`.
+- Table includes a header and a single row with the website preview.
+- Demonstrates basic HTML table structure and embedding external websites.
+- Example website: [Wikipedia](https://www.wikipedia.org)
+
 
 ---
 
