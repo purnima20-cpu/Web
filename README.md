@@ -9,14 +9,19 @@ This is a simple web project consisting of two main HTML pages:
 
 ## Pages Description
 
-### 1. `form.html`
-- Contains a **simple registration form**.
-- Form fields include typical inputs such as:
-  - Name
-  - Email
-  - Password
-  - Submit button
-- Demonstrates basic HTML form structure.
+# Registration Form
+
+## form.html
+- A simple registration form.
+- Fields include:
+  - First Name, Last Name
+  - Email, Password
+  - Date of Birth, Registration Date
+  - Salary, Gender, Skills, Country
+  - About You (textarea)
+- Submit and Reset buttons included.
+- Demonstrates basic HTML form structure and styling.
+
 
 ### 2. `website.html`
 - Demonstrates use of **HTML tables** and **iframes**.
