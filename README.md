@@ -5,8 +5,6 @@ This is a simple web project consisting of two main HTML pages:
 1. **`form.html`** – A basic registration form.
 2. **`website.html`** – A sample website preview demonstrating various HTML attributes and elements.
 
----
-
 ## Pages Description
 
 # Registration Form
