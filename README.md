@@ -8,7 +8,6 @@ This is a simple web project consisting of two main HTML pages:
 ## Pages Description
 
 # Registration Form
-
 ## form.html
 - A simple registration form.
 - Fields include:
